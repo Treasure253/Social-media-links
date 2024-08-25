@@ -1,0 +1,94 @@
+/* General styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'figtree', sans-serif;
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 60vh;
+    justify-content: center;
+    background-color: rgb(19, 5, 5);
+} 
+ 
+.content-box {
+    width: 90%;
+    max-width: 500px;
+    max-height: 500px; 
+    padding: 1px; 
+    background-color: #080101; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Image container */
+
+.image-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.hero-section h2 {
+    color: aliceblue;
+    font-size: 1rem;
+    padding: 0.5px;
+    margin: 1px;
+}
+
+.fore-section h3 {
+    color: yellow;
+    font-size: 1rem;
+    padding: 0;
+    margin: 1px;
+}
+
+.sub-section h4 {
+    color: rgb(230, 238, 245);
+    font-size: 1rem;
+    margin: 10px;
+    padding: 0;
+}
+
+/* Design for each section */
+
+.Twitter,
+.GitHub,
+.LinkedIn,
+.FrontendMentor,
+.Instagram{
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: beige; 
+    background-color: #6e6565;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(4, 14, 8, 0.1); 
+    border: 1px solid #000301;
+    transition: all 0.3s ease;
+}
+
+.Twitter:hover,
+.GitHub:hover,
+.LinkedIn:hover,
+.FrontendMentor:hover,
+.Instagram:hover {
+    background-color: #504a4a;
+    color: #fff;
+    border: 1px solid #ffffff;
+    box-shadow: 0 6px 15px rgba(4, 14, 8, 0.2);
+    transform: scale(1.05);
+}
